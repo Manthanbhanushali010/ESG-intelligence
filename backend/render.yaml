@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: esg-intelligence-backend
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn src.main:app
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9.16
+      - key: DATABASE_URL
+        fromDatabase:
+          name: esg-intelligence-db
+          property: connectionString
+      - key: FLASK_ENV
+        value: production
+      - key: CORS_ORIGINS
+        value: "*"
+
+databases:
+  - name: esg-intelligence-db
+    databaseName: esg_intelligence
+    user: esg_user 
