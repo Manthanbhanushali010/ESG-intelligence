@@ -1,5 +1,12 @@
 # ESG Intelligence Engine - AI-Powered Sustainable Investment Analysis
 
+## 🌐 Live Demo
+**🚀 [View Live Application](https://manthanbhanushali010.github.io/ESG-intelligence/)**
+
+*Experience the full ESG Intelligence Engine with real-time data and interactive analytics*
+
+---
+
 ## 🎯 Project Overview
 ESG Intelligence Engine is an advanced AI-powered platform for Environmental, Social, and Governance (ESG) factor analysis. It provides comprehensive sustainability scoring and investment recommendations aligned with ESG criteria for institutional investors.
 
@@ -71,7 +78,13 @@ ESG_Intelligence/
 - **Top Performers:** Microsoft (92), Apple (89), Tesla (85)
 
 ## 🌐 Deployment
-Optimized for deployment on:
+
+### Live Production Deployment
+- **Frontend:** [GitHub Pages](https://manthanbhanushali010.github.io/ESG-intelligence/) - Automatic deployment on push to main
+- **Backend API:** [Render.com](https://esg-intelligence.onrender.com) - Flask API with PostgreSQL database
+- **Database:** PostgreSQL with comprehensive ESG data for 5 major companies
+
+### Alternative Deployment Options
 - **AWS:** Lambda + DynamoDB for serverless architecture
 - **Google Cloud:** Cloud Functions + Firestore
 - **Azure:** Functions + Cosmos DB
