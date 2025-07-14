@@ -4,7 +4,7 @@ const config = {
     apiUrl: 'http://localhost:5003'
   },
   production: {
-    apiUrl: 'https://esg-intelligence-backend.vercel.app' // We'll update this after deployment
+    apiUrl: 'https://esg-intelligence-backend.onrender.com' // Update this with your actual Render URL
   }
 }
 
