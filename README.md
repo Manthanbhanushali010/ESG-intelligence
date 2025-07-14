@@ -98,4 +98,3 @@ Optimized for deployment on:
 ---
 
 **Created by Manthan Bhanushali for Saragossa Investment Management Application**
-
